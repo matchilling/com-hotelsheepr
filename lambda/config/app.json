@@ -1,0 +1,15 @@
+{
+    "hotelscombined": {
+        "endpoint": {
+            "suggestion": "https://www.hotelscombined.com/AutoUniversal.ashx"
+        }
+    },
+    "logger": {
+        "options": {
+            "level": "debug",
+            "enabled": true,
+            "name": "com-hotelsheepr-fn",
+            "safe": true
+        }
+    }
+}

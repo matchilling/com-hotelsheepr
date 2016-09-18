@@ -1,6 +1,2 @@
-dist
-.env
 node_modules/
-.publish/
-.tmp
 .serverless

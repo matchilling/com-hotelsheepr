@@ -1,0 +1,17 @@
+{
+    "name": "com-hotelsheepr-lambda",
+    "version": "0.1.0",
+    "description": "",
+    "scripts": {
+        "test": "./node_modules/mocha/bin/mocha test/"
+    },
+    "author": "Mathias Schilling <m@matchilling.com> (https://www.matchilling.com)",
+    "license": "SEE LICENSE IN LICENSE",
+    "devDependencies": {
+        "chai": "^3.5.0",
+        "mocha": "^3.0.2",
+        "pino": "^2.10.1",
+        "q": "^1.4.1",
+        "unirest": "^0.5.1"
+    }
+}

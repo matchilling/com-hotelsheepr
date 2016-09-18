@@ -1,0 +1,8 @@
+{
+    "query": {
+        "search": "London",
+        "languageCode": "GB",
+        "countryCode": "EN",
+        "limit": 10
+    }
+}

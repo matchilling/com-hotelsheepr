@@ -1,0 +1,30 @@
+service: com-hotelsheepr
+
+provider:
+  name: aws
+  runtime: nodejs4.3
+  include:
+    - config
+    - lib
+  exclude:
+    - node_modules
+  defaults:
+    stage: dev
+    region: eu-west-1
+
+functions:
+  autocomplete:
+    handler: autocomplete/handler.main
+    events:
+      - http:
+          path: autocomplete
+          method: get
+          cors:
+            origins:
+              - '*'
+            headers:
+              - Content-Type
+              - X-Amz-Date
+              - Authorization
+              - X-Api-Key
+              - X-Amz-Security-Token
